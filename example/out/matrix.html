@@ -1,0 +1,527 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Traceable matrix directives &mdash; Traceables example project 0.7 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/traceables-matrix.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.7',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Traceables example project 0.7 documentation" href="index.html" />
+    <link rel="next" title="Traceable graph directive" href="graph.html" />
+    <link rel="prev" title="Welcome to the Traceables example project" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="graph.html" title="Traceable graph directive"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to the Traceables example project"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Traceables example project 0.7 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="traceable-matrix-directives">
+<h1>Traceable matrix directives<a class="headerlink" href="#traceable-matrix-directives" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="traceable-matrix-formats">
+<h2>Traceable matrix formats<a class="headerlink" href="#traceable-matrix-formats" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="list-format">
+<h3>List format<a class="headerlink" href="#list-format" title="Permalink to this headline">¶</a></h3>
+<p>The source listing below displays a <code class="docutils literal"><span class="pre">traceable-matrix</span></code> directive with
+<code class="docutils literal"><span class="pre">list</span></code> format:</p>
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">traceable-matrix</span><span class="p">::</span>
+   <span class="nc">:relationship:</span> <span class="nf">parents</span>
+   <span class="nc">:format:</span> <span class="nf">list</span>
+</pre></div>
+</div>
+<p>The directive shown above gives the following output:</p>
+<ul class="simple">
+<li><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a><ul>
+<li><a class="reference internal" href="hercules.html#traceables-0" title="SAGITTA"><code class="docutils literal"><span class="pre">SAGITTA</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a><ul>
+<li><a class="reference internal" href="perseus.html#traceables-1" title="CEPHEUS"><code class="docutils literal"><span class="pre">CEPHEUS</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="hercules.html#traceables-4" title="CORVUS"><code class="docutils literal"><span class="pre">CORVUS</span></code></a><ul>
+<li><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a><ul>
+<li><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="perseus.html#traceables-3" title="LACERTA"><code class="docutils literal"><span class="pre">LACERTA</span></code></a><ul>
+<li><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="hercules.html#traceables-2" title="LYRA"><code class="docutils literal"><span class="pre">LYRA</span></code></a><ul>
+<li><a class="reference internal" href="hercules.html#traceables-0" title="SAGITTA"><code class="docutils literal"><span class="pre">SAGITTA</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a><ul>
+<li><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="hercules.html#traceables-5" title="VULPECULA"><code class="docutils literal"><span class="pre">VULPECULA</span></code></a><ul>
+<li><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="columns-format">
+<h3>Columns format<a class="headerlink" href="#columns-format" title="Permalink to this headline">¶</a></h3>
+<p>The source listing below displays a <code class="docutils literal"><span class="pre">traceable-matrix</span></code> directive with
+<code class="docutils literal"><span class="pre">columns</span></code> format:</p>
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">traceable-matrix</span><span class="p">::</span>
+   <span class="nc">:relationship:</span> <span class="nf">children</span>
+   <span class="nc">:format:</span> <span class="nf">columns</span>
+</pre></div>
+</div>
+<p>The directive shown above gives the following output:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Parents</th>
+<th class="head">Children</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td rowspan="2"><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></td>
+<td><a class="reference internal" href="hercules.html#traceables-4" title="CORVUS"><code class="docutils literal"><span class="pre">CORVUS</span></code></a></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></td>
+</tr>
+<tr class="row-even"><td rowspan="1"><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></td>
+<td><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></td>
+</tr>
+<tr class="row-odd"><td rowspan="1"><a class="reference internal" href="perseus.html#traceables-1" title="CEPHEUS"><code class="docutils literal"><span class="pre">CEPHEUS</span></code></a></td>
+<td><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></td>
+</tr>
+<tr class="row-even"><td rowspan="1"><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></td>
+<td><a class="reference internal" href="hercules.html#traceables-5" title="VULPECULA"><code class="docutils literal"><span class="pre">VULPECULA</span></code></a></td>
+</tr>
+<tr class="row-odd"><td rowspan="1"><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></td>
+<td><a class="reference internal" href="perseus.html#traceables-3" title="LACERTA"><code class="docutils literal"><span class="pre">LACERTA</span></code></a></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><a class="reference internal" href="hercules.html#traceables-0" title="SAGITTA"><code class="docutils literal"><span class="pre">SAGITTA</span></code></a></td>
+<td><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-2" title="LYRA"><code class="docutils literal"><span class="pre">LYRA</span></code></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="table-format">
+<h3>Table format<a class="headerlink" href="#table-format" title="Permalink to this headline">¶</a></h3>
+<p>The source listing below displays a <code class="docutils literal"><span class="pre">traceable-matrix</span></code> directive with
+<code class="docutils literal"><span class="pre">table</span></code> format:</p>
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">traceable-matrix</span><span class="p">::</span>
+   <span class="nc">:relationship:</span> <span class="nf">children</span>
+   <span class="nc">:format:</span> <span class="nf">table</span>
+</pre></div>
+</div>
+<p>The directive shown above gives the following output:</p>
+<div class="container">
+<table border="1" class="traceables-crosstable docutils">
+<colgroup>
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&nbsp;</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-4" title="CORVUS"><code class="docutils literal"><span class="pre">CORVUS</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="perseus.html#traceables-3" title="LACERTA"><code class="docutils literal"><span class="pre">LACERTA</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-2" title="LYRA"><code class="docutils literal"><span class="pre">LYRA</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-5" title="VULPECULA"><code class="docutils literal"><span class="pre">VULPECULA</span></code></a></span></div>
+</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-1" title="CEPHEUS"><code class="docutils literal"><span class="pre">CEPHEUS</span></code></a></td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-0" title="SAGITTA"><code class="docutils literal"><span class="pre">SAGITTA</span></code></a></td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="table-format-with-max-columns">
+<h3>Table format with max-columns<a class="headerlink" href="#table-format-with-max-columns" title="Permalink to this headline">¶</a></h3>
+<p>The source listing below displays a <code class="docutils literal"><span class="pre">traceable-matrix</span></code> directive with
+<code class="docutils literal"><span class="pre">table</span></code> format with <code class="docutils literal"><span class="pre">max-columns</span></code> specified:</p>
+<div class="highlight-rst"><div class="highlight"><pre><span class="p">..</span> <span class="ow">traceable-matrix</span><span class="p">::</span>
+   <span class="nc">:relationship:</span> <span class="nf">children</span>
+   <span class="nc">:format:</span> <span class="nf">table</span>
+   <span class="nc">:max-columns:</span> <span class="nf">2</span>
+</pre></div>
+</div>
+<p>The directive shown above gives the following output:</p>
+<div class="container">
+<p><table border="1" class="traceables-crosstable docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&nbsp;</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></span></div>
+</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-1" title="CEPHEUS"><code class="docutils literal"><span class="pre">CEPHEUS</span></code></a></td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-0" title="SAGITTA"><code class="docutils literal"><span class="pre">SAGITTA</span></code></a></td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p><table border="1" class="traceables-crosstable docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&nbsp;</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-4" title="CORVUS"><code class="docutils literal"><span class="pre">CORVUS</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></span></div>
+</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></td>
+<td><span>✔</span></td>
+<td><span>✔</span></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-1" title="CEPHEUS"><code class="docutils literal"><span class="pre">CEPHEUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-0" title="SAGITTA"><code class="docutils literal"><span class="pre">SAGITTA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p><table border="1" class="traceables-crosstable docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&nbsp;</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="perseus.html#traceables-3" title="LACERTA"><code class="docutils literal"><span class="pre">LACERTA</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-2" title="LYRA"><code class="docutils literal"><span class="pre">LYRA</span></code></a></span></div>
+</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-1" title="CEPHEUS"><code class="docutils literal"><span class="pre">CEPHEUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-0" title="SAGITTA"><code class="docutils literal"><span class="pre">SAGITTA</span></code></a></td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p><table border="1" class="traceables-crosstable docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&nbsp;</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></span></div>
+</th>
+<th class="head"><div class="first last container">
+<span><a class="reference internal" href="hercules.html#traceables-5" title="VULPECULA"><code class="docutils literal"><span class="pre">VULPECULA</span></code></a></span></div>
+</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="hercules.html#traceables-1" title="AQUILA"><code class="docutils literal"><span class="pre">AQUILA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="perseus.html#traceables-0" title="AURIGA"><code class="docutils literal"><span class="pre">AURIGA</span></code></a></td>
+<td><span>✔</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-1" title="CEPHEUS"><code class="docutils literal"><span class="pre">CEPHEUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-3" title="CYGNUS"><code class="docutils literal"><span class="pre">CYGNUS</span></code></a></td>
+<td>&nbsp;</td>
+<td><span>✔</span></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="perseus.html#traceables-2" title="PEGASUS"><code class="docutils literal"><span class="pre">PEGASUS</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="hercules.html#traceables-0" title="SAGITTA"><code class="docutils literal"><span class="pre">SAGITTA</span></code></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Traceable matrix directives</a><ul>
+<li><a class="reference internal" href="#traceable-matrix-formats">Traceable matrix formats</a><ul>
+<li><a class="reference internal" href="#list-format">List format</a></li>
+<li><a class="reference internal" href="#columns-format">Columns format</a></li>
+<li><a class="reference internal" href="#table-format">Table format</a></li>
+<li><a class="reference internal" href="#table-format-with-max-columns">Table format with max-columns</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to the Traceables example project</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="graph.html"
+                        title="next chapter">Traceable graph directive</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/matrix.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="graph.html" title="Traceable graph directive"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to the Traceables example project"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Traceables example project 0.7 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, t4ngo.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>
